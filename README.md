@@ -5,4 +5,4 @@ Although effective, this method is inherently subjective and may vary from one e
 With the growth of data-driven technologies, machine learning has emerged as a powerful tool for automating decision-making processes across various industries. Machine learning algorithms can analyse large volumes of data, identify hidden patterns, and generate accurate predictions. In the context of wine quality assessment, these
 algorithms can utilize physicochemical properties to objectively classify wine samples into different quality categories.
 This project focuses on developing a machine learning-based wine quality classification system. Multiple classification algorithms are implemented and compared to determine the most suitable
-model. The objective is to provide an accurate, reliable, and scalable solution that can assist wine producers in quality evaluation and decision- making.
+model. The objective is to provide an accurate, reliable, and scalable solution that can assist wine producers in quality evaluation and decision-making.
