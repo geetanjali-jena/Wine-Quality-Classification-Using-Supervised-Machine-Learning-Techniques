@@ -14,7 +14,7 @@ from sklearn.metrics import confusion_matrix,classification_report,f1_score,accu
 
 
 #import the dataset using pandas
-wine=pd.read_csv(r"C:\Users\GEETANJALI JENA\Downloads\winequality-white.csv",sep=";")
+wine=pd.read_csv(r"C:\Users\GEETANJALI JENA\OneDrive\Desktop\winequality.csv", sep=";")
 wine
 
 #analyse the dataset and clean the dataset
@@ -30,6 +30,9 @@ for col in cols:
     wine[col]=wine[col].fillna(wine[col].mean())
 wine.isnull().sum()
 wine.info()
+
+
+
 
 #histograms of the features of my dataset how well my data is classified 
 columns=['fixed acidity','volatile acidity','citric acid','residual sugar','chlorides','free sulfur dioxide',
